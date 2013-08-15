@@ -26,8 +26,7 @@ var select_spe = "{$lang.select_spe}";
       <!-- {/if} --></div>
     </span> </div>
 </div>
-<div class="blank"></div>
-<div class="block clearfix">
+<div class="block clearfix bigBanner">
   <div class="logo"> <img src="../images/logo.gif"/> </div>
   <div style="float:right;width:660px;">
     <div class="search_div">
@@ -59,13 +58,13 @@ var select_spe = "{$lang.select_spe}";
         {if $searchkeywords} <span class="hotwords">热门搜索：</span> {foreach from=$searchkeywords item=val} <a class="redtext"href="search.php?keywords={$val|escape:url}">{$val}</a> {/foreach}
         {/if} </div>
     </div>
-    <div style="height:48px;">
+    <div style="height:20px;">
       <ul style=" float:right; margin-top:5px;">
-        <li class="tel"><a href="#">服务热线:<font class="telnum">400-678-0068</font></a></li>
+        <li class="tel"><a href="#">服务热线:<font class="telnum">400-000-0000</font></a></li>
+
       </ul>
     </div>
-   
-    <div class="cartinfo fr" id="ECS_CARTINFO"><a>{insert_scripts files='transport.js'}{insert name='cart_info'} </a> </div>
+   <div class="cartinfo fr" id="ECS_CARTINFO"><a>{insert_scripts files='transport.js'}{insert name='cart_info'} </a></div>
   </div>
 </div>
 <div class="block1 clearfix" style="background:#E4393c">

@@ -95,6 +95,16 @@ h1, h2, h3, h4, h5, h6 {
 	display: block;
 	margin-bottom: 0px;
 }
+
+.bigBanner{
+	width: 990px;
+	padding-left: 100px;
+	padding-right: 100px;
+	padding-top: 200px;
+	height: 100px;
+	background: url(images/topbanner.jpg);
+}
+
 .clearfix:after {
 	content: ".";
 	display: block;
@@ -577,7 +587,6 @@ background:url(images/bg.gif) no-repeat -14px -6px; right:-1px; bottom:-1px;
 	padding-left: 10px;
 }
 .cagegoryCon dl dd p {
-	width: 45%;
 	margin: 1px 2px;
 	_margin: 1px;
 	height: 17px;
@@ -2170,18 +2179,16 @@ a:hover {
 	overflow: hidden;
 }
 .cartinfo {
-	width: 131px;
-	height: 29px;
-	line-height: 29px;
-	position: absolute;
-	top: 70px;
-	right: 190px;
+	width: 150px;
+	height: 50px;
+	line-height: 20px;
+	margin-top: 6px;
+	padding:4px;
 	background: url(images/cartinfo.gif) no-repeat left top;
 	overflow: hidden;
 }
 .cartinfo a {
 	color: #666666;
-	margin-left: 25px;
 }
 .cartinfo a:hover {
 	color: #FC3398;
