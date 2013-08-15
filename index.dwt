@@ -1,0 +1,128 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Keywords" content="{$keywords}" />
+<meta name="Description" content="{$description}" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>{$page_title}</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+
+<link rel="shortcut icon" href="favicon.ico" />
+<link rel="icon" href="animated_favicon.gif" type="image/gif" />
+<link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
+<link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
+{* 包含脚本文件 *}
+{insert_scripts files='common.js,index.js'}
+<script type="text/javascript" src="js/action.js"></script>
+<script type="text/javascript" src="js/scrollpic.js"></script>
+<script type="text/javascript" src="js/roll.js"></script>
+</head>
+<body>
+<!-- #BeginLibraryItem "/library/page_header.lbi" --><!-- #EndLibraryItem -->
+<div class="block clearfix">
+  <div id="pageLeft" class="fl">
+	<!-- #BeginLibraryItem "/library/category_tree.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/top10.lbi" --><!-- #EndLibraryItem -->
+    <!-- #BeginLibraryItem "/library/brands.lbi" --><!-- #EndLibraryItem --> 
+    <!-- TemplateBeginEditable name="左边广告2" -->
+<!-- TemplateEndEditable -->
+	<!-- #BeginLibraryItem "/library/promotion_info.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/invoice_query.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/order_query.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/vote_list.lbi" --><!-- #EndLibraryItem -->
+    <!---品牌专区--->
+
+	<!-- TemplateBeginEditable name="左边区域" -->
+<!-- TemplateEndEditable -->
+	</div>
+	<div id="pageRight" class="fr clearfix" >
+	 <div class="clearfix blank">
+	  <div class="w574 fl">
+	  <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
+	 </div>
+     
+	  <div class="w200 blank fr clearfix">
+      
+       <!-- TemplateBeginEditable name="公告下AD 200x70" -->
+<!-- TemplateEndEditable -->
+      
+       <div class="blank"></div>
+      
+      
+      <h1 class="mod1tit">{$lang.shop_notice}</h1>
+			 <div class="mod1" >
+				 
+				 <div class="mod1con shop_notice">
+					<!-- TemplateBeginEditable name="商店公告" -->
+<!-- TemplateEndEditable -->	
+				 </div>
+			 </div>
+			 <script type="text/javascript">divheight("mod1");</script>
+	 </div>
+
+	 </div>
+     <div class="clearfix">
+		<div class="w780">
+			<!-- TemplateBeginEditable name="今日特价下通栏广告" -->
+<!-- TemplateEndEditable --> 
+		 </div>
+	 </div>
+	 <!--hot start-->
+	 <div class="clearfix ">
+		<div class="w780">
+		 <!-- {if $hot_goods} -->
+         <!-- #BeginLibraryItem "/library/recommend_hot.lbi" --><!-- #EndLibraryItem -->  
+		 <!--{/if}--> 
+		 </div>
+	 </div>
+	 <!--hot end-->
+	 <div>
+	 </div>
+	 <!--{if $best_goods} 精品推荐 START-->
+
+        <!-- #BeginLibraryItem "/library/recommend_best.lbi" --><!-- #EndLibraryItem -->     
+
+	 <!--{/if} 精品推荐 END-->
+        <!-- #BeginLibraryItem "/library/recommend_new.lbi" --><!-- #EndLibraryItem --> 
+        
+        <!-- TemplateBeginEditable name="商品右侧分类" -->
+<!-- TemplateEndEditable --> 
+	</div>
+    
+</div>
+<div class="block clearfix">
+<!-- TemplateBeginEditable name="商品右侧分类1" -->
+<!-- TemplateEndEditable --> 
+
+        <!-- TemplateBeginEditable name="商品右侧分类2" -->
+<!-- TemplateEndEditable --> </div>
+<!--鼠标切换js Star-->
+<div class="blank"></div>
+<!-- #BeginLibraryItem "/library/help.lbi" --><!-- #EndLibraryItem -->
+<!--{if $img_links  or $txt_links }-->
+
+<div class="block blank" >
+  <div class="mod1 mod2" id="links" style=" border-top: 1px solid #ccc">
+	 <span class="lt"></span><span class="lb"></span><span class="rt"></span><span class="rb"></span>
+	  <div class="links clearfix">
+
+       
+        <p>
+			<!-- {if $txt_links} -->
+			<!--开始文字类型的友情链接{foreach from=$txt_links item=link}-->
+			<a href="{$link.url}" target="_blank" title="{$link.name}" class="linkTxt">{$link.name}</a>
+			<!--结束文字类型的友情链接{/foreach}-->
+			<!-- {/if} -->
+       </p>
+		</div>
+  </div>
+<script type="text/javascript">divheight("links");</script>	
+</div> 
+<!--{/if}-->
+<!-- #BeginLibraryItem "/library/page_footer.lbi" --><!-- #EndLibraryItem -->
+</body>
+</html>

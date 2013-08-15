@@ -1,0 +1,82 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script language="javascript"> 
+<!--
+function killerrors() { 
+return true; 
+} 
+window.onerror = killerrors; 
+//-->
+</script>
+<script type="text/javascript">
+var process_request = "{$lang.process_request}";
+var btn_buy = "{$lang.btn_buy}";
+var is_cancel = "{$lang.is_cancel}";
+var select_spe = "{$lang.select_spe}";
+</script>
+<div class="block1 clearfix" >
+  <div class="block clearfix" > <span class="top_nav"> {insert_scripts files='transport.js,utils.js'} <font id="ECS_MEMBERZONE"> {* ECSHOP 提醒您：根据用户id来调用member_info.lbi显示不同的界面  *}{insert name='member_info'} </font>
+    <div style=" margin-left:620px; display:inline"> 
+      <!--{if $navigator_list.top}--> 
+      <!-- {foreach name=nav_top_list from=$navigator_list.top item=nav} --> 
+      <a  class="redtext"href="{$nav.url}" <!-- {if $nav.opennew eq 1} --> target="_blank" <!-- {/if} -->>{$nav.name}</a> 
+      <!-- {if !$smarty.foreach.nav_top_list.last} --> 
+      | 
+      <!-- {/if} --> 
+      <!-- {/foreach} --> 
+      <!-- {/if} --></div>
+    </span> </div>
+</div>
+<div class="blank"></div>
+<div class="block clearfix">
+  <div class="logo"> <img src="../images/logo.gif"/> </div>
+  <div style="float:right;width:660px;">
+    <div class="search_div">
+      <div id="search"  class="clearfix">
+        <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" >
+          <input name="keywords" type="text" id="keyword" value="{$search_keywords|escape}" class="search_inp"/>
+          <input name="imageField" type="submit" value=" " class="search_btn" />
+        </form>
+      </div>
+      <div class="hotword"> 
+        <script type="text/javascript">
+    {literal}
+    <!--
+    function checkSearchForm()
+    {
+        if(document.getElementById('keyword').value)
+        {
+            return true;
+        }
+        else
+        {
+            alert("{$lang.no_keywords}");
+            return false;
+        }
+    }
+    -->
+    {/literal}
+    </script> 
+        {if $searchkeywords} <span class="hotwords">热门搜索：</span> {foreach from=$searchkeywords item=val} <a class="redtext"href="search.php?keywords={$val|escape:url}">{$val}</a> {/foreach}
+        {/if} </div>
+    </div>
+    <div style="height:48px;">
+      <ul style=" float:right; margin-top:5px;">
+        <li class="tel"><a href="#">服务热线:<font class="telnum">400-678-0068</font></a></li>
+      </ul>
+    </div>
+   
+    <div class="cartinfo fr" id="ECS_CARTINFO"><a>{insert_scripts files='transport.js'}{insert name='cart_info'} </a> </div>
+  </div>
+</div>
+<div class="block1 clearfix" style="background:#E4393c">
+  <div class="main_nav ">
+    <ul class="MenuList">
+      <li  class="cur"><a href="../index.php">{$lang.home}</a></li>
+      <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav} -->
+      <li {if $nav.active eq 1} class="cur"{/if} ><a  style="color:fff;" href="{$nav.url}" {if $nav.opennew eq 1}target="_blank" {/if}>{$nav.name}</a></li>
+      <!-- {/foreach} -->
+      
+    </ul>
+  </div>
+</div>
+<div class="blank"></div>
