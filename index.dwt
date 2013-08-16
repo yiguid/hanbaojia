@@ -48,6 +48,12 @@
 	  <div class="w200 blank fr clearfix">
       
        <!-- TemplateBeginEditable name="公告下AD 200x70" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+<div class="ads">
+{insert name='ads' id=$ads_id num=$ads_num}
+</div>
+ <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
       
        <div class="blank"></div>
@@ -90,6 +96,12 @@
         <!-- #BeginLibraryItem "/library/recommend_new.lbi" --><!-- #EndLibraryItem --> 
         
         <!-- TemplateBeginEditable name="商品右侧分类" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+<div class="ads">
+{insert name='ads' id=$ads_id num=$ads_num}
+</div>
+ <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable --> 
 	</div>
     

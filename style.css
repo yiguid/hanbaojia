@@ -588,6 +588,7 @@ background:url(images/bg.gif) no-repeat -14px -6px; right:-1px; bottom:-1px;
 }
 .cagegoryCon dl dd p {
 	margin: 1px 2px;
+	width: 180px;
 	_margin: 1px;
 	height: 17px;
 	overflow: hidden;
@@ -797,6 +798,11 @@ background:url(images/bg.gif) no-repeat -14px -6px; right:-1px; bottom:-1px;
 	padding-top: 6px;
 	padding-left: 13px;
 }
+
+.brandsL a{
+	width: 180px;
+}
+
 .brandboxs1 .brandsL img, .brandboxs .brandsL .brandtxt {
 	display: block;
 	width: 78px;
