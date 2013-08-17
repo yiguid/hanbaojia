@@ -2427,3 +2427,41 @@ a:hover {
 	float: left;
 	overflow: hidden;
 }
+
+/*index_8TAB布局*/
+#tabb {z-index:9999;margin: 0px 10px;}
+#tabb * {font-size:12px;}
+#tabb a {color:#666666;}
+#tabb h3 a {display:inline-block;}
+#tabb h3 a {display:block;}
+#tabb {position:relative; border:1px solid #D6D6D6;}
+#tabb h3,#tabb ul,#tabb div,#tabb li {margin:0;padding:0;list-style-type:none;}
+#tabb ul li {position:absolute;left:0;top:0;float:left;display:block;width:115px;height:31px;font-size:0;}
+#tabb ul #tab1 h3 {margin-left:255px;}
+#tabb ul #tab2 h3 {margin-left:370px;}
+#tabb ul #tab3 h3 {margin-left:485px;}
+#tabb ul #tab4 h3 {margin-left:600px;}
+#tabb ul li div {position:absolute;clear:both;}
+#tabb ul li div#bDIV1 {padding-left:-255px;}
+#bDIV1 ol{padding-left: 0px;}
+#tabb ul li div#bDIV2 {padding-left:-370px;}
+#bDIV2 ol{padding-left: 0px;}
+#tabb ul li div#bDIV3 {padding-left:-485px;}
+#bDIV3 ol{padding-left: 0px;}
+#tabb ul li div#bDIV4 {padding-left:-600px;}
+#bDIV4 ol{padding-left: 0px;}
+/*TAB-标题修饰*/
+#tabb,#tabb ul li div,#tabb ul li div li {width:730px;padding-left: 20px;}/* 设置总宽度[width] */
+#tabb {height:550px;background:#F1F1F1;overflow:hidden;}/* 设置总高度[height]、标题背景颜色[background] */
+ #tabb ul li h3 a {width:115px; height:31px;line-height:31px; }/* 标题默认状态 */
+
+#tabb ul li div {background:#fff;height:520px;}/* 背景颜色[background]、设置内容高度[height] */
+
+/*TAB1效果[ol/li]*/
+#tabb ul li div td .tabb_cpm{font-size:14px; color:#464646; font-weight:bold; text-align:center;line-height:20px;}
+#tabb ul li div td .tabb_cd{font-size:12px; color:#A0BE72; text-align:center;line-height:15px;}
+#tabb ul li div td .tabb_hr{line-height:10px;}
+#tabb ul li div td p{font-size:12px; color:#999999;text-indent:2em; line-height:20px;}
+#tabb ul li div td p.xuanze{text-align:right;}
+#tabb ul li div td p a{font-size:12px; color:#DA7F7F;}
+#tabb ul li div td hr{color:#ECECEC;}

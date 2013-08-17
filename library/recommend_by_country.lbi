@@ -1,0 +1,220 @@
+<script type="text/javascript" src="themes/hanbaojia/js/tabs.js"></script>
+<div id="tabb">
+ <ul>
+ <li id="tab1" class="tab1 up"><h3 style:'width="115px;'"><a href="./index.php####" onmouseover="javascript:toggleTob(1)"><img src="themes/hanbaojia/images/dgzy.gif" alt="德国直邮"></a></h3>
+ 
+ <div id="bDIV1" style="">
+ <ol>
+	<img src="themes/hanbaojia/images/dgzy.jpg" alt="德国直邮">
+	<table cellpadding="10" cellspacing="0" border="0">
+		<tbody><tr>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">德国原装直邮爱他美——更接近母乳成分
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：德国 Franconofurd    8罐起订 免邮费							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/aptamil.jpg" alt="德国爱他美"></td>
+							<td valign="top" height="220"><p>德国爱他美(Aptamil)是近似母乳的专利奶粉，深受欧洲妈妈们的喜爱，爱他美在欧洲为高端奶粉，被医院医生所推荐。</p><p>爱他美系列曾连续4年欧洲销量冠军，配方技术先进，更是拥有百年制作历史。</p><p>爱他美奶粉利于促进宝宝身体及大脑极好的生长发育。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-11-b0.html" target="_blank">&gt;&gt; 选择德国爱他美直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">德国原装直邮喜宝——德国百年有机奶粉
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：德国 Franconofurd    6罐起订 免邮费</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/hipp.jpg" alt="德国喜宝"></td>
+							<td valign="top" height="220"><p>HiPP有超过60年的有机耕作经验，此外也是世界范围内最大的有机原料使用商。世界范围内有超过6000家绿色农场为HiPP提供有机作物。</p><p>喜宝奶粉口感自然味道极佳，100% 纯天然，营养丰富,宝宝饮用不上火，而且有饱腹感。喜宝奶粉采用母乳配方，可以替代母乳或者作为母乳不足的宝宝使用。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-10-b0.html" target="_blank">&gt;&gt; 选择德国喜宝直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+ </ol>
+ </div>
+
+ </li>
+ <li id="tab2" class="tab2"><h3><a href="./index.php##" onmouseover="javascript:toggleTob(2)"><img src="themes/hanbaojia/images/hlzy.gif" alt="荷兰直邮"></a></h3>
+ <div id="bDIV2" style="display: none;">
+<ol>
+		<img src="themes/hanbaojia/images/hlzy.jpg" alt="荷兰直邮">
+	<table cellpadding="10" cellspacing="0" border="0">
+		<tbody><tr>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">荷兰原装直邮牛栏——宝宝爱吃妈咪开心
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：荷兰 Nijmegen    6罐起订 免邮费							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/nutrilon.jpg" alt="荷兰牛栏"></td>
+							<td valign="top" height="220"><p>欧洲本土原装牛栏系列因幼儿奶粉是唯一可在欧洲药店出售和唯一欧洲儿科医生推荐的婴幼儿奶粉，纯正荷兰奶源，百年奶粉研发经验，是真正的高品质婴幼儿奶粉。</p><p>牛栏研发机构确保提供最全、品种最新、质量最可靠的肠内营养系列产品和肠内营养输注系统。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-18-b0.html" target="_blank">&gt;&gt; 选择荷兰牛栏直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">荷兰原装直邮美素——荷兰顶级配方奶粉
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：荷兰 Nijmegen    6罐起订 免邮费</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/friso.jpg" alt="荷兰美素"></td>
+							<td valign="top" height="220"><p>美素奶粉荷兰原装，从纯正优质的奶源，到优化的营养配比方案，美素了解妈妈们的需求。它能提供更全面均衡的营养，强化宝宝的自身免疫力，帮助宝宝健康成长。</p><p>美素奶粉含有宝宝生长发育所需维生素和矿物质，采用独特蛋白质疏松处理技术，并添加益生元、5种核苷酸、DHA和AA，伴宝宝健康成长。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-20-b0.html" target="_blank">&gt;&gt; 选择荷兰美素直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+</ol> 
+
+</div>
+ </li>
+ <li id="tab3" class="tab3"><h3><a href="./index.php###" onmouseover="javascript:toggleTob(3)"><img src="themes/hanbaojia/images/rdzy.gif" alt="瑞典直邮"></a></h3>
+ <div id="bDIV3" style="display: none;">
+ <ol>								
+	<img src="themes/hanbaojia/images/rdzy.jpg" alt="瑞典直邮">
+	<table cellpadding="10" cellspacing="0" border="0">
+		<tbody><tr>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">瑞典原装直邮森宝——婴幼儿营养专家
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：瑞典    8罐起订 免邮费							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/semper.jpg" alt="瑞典森宝"></td>
+							<td valign="top" height="220"><p>森宝是瑞典婴幼儿营养专家，产品包含婴儿奶粉、辅食等，瑞典作为世界福利做好的国家，产品值得信赖。</p><p>Semper旗下最重要的产品系就是其配方奶粉和谷物奶粉。在瑞典的超市里，Semper占有市场绝对优势地位，也是瑞典人在谈到婴幼儿奶粉时最先想到的品牌。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-39-b0.html" target="_blank">&gt;&gt; 选择瑞典森宝直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">瑞典原装直邮雀巢——瑞典三大奶粉之一
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：瑞典    8罐起订 免邮费</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/nestle.jpg" alt="瑞典雀巢"></td>
+							<td valign="top" height="220"><p>雀巢集团（Nestle），拥有138年历史的雀巢公司起源于瑞士。它最初是以生产婴儿食品起家的。</p><p>瑞典雀巢奶粉和瑞典森宝奶粉、瑞典喜宝奶粉占瑞典奶粉主导地位，作为生活品质要求最高的国家，奶粉的品质当然独树一帜，雀巢能恩系列保证宝宝健康成长。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-41-b0.html" target="_blank">&gt;&gt; 选择瑞典雀巢直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+ </ol>								
+</div>
+ </li>
+ <li id="tab4" class="tab4"><h3><a href="./index.php####" onmouseover="javascript:toggleTob(4)"><img src="themes/hanbaojia/images/ygzy.gif" alt="英国直邮"></a></h3>
+ <div id="bDIV4" style="display: none;">
+ <ol>								
+	<img src="themes/hanbaojia/images/ygzy.jpg" alt="英国直邮">
+	<table cellpadding="10" cellspacing="0" border="0">
+		<tbody><tr>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">英国原装直邮爱他美——爱他美英国出品
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：英国Coventry     6罐起订 免邮费							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/ygaptamil.jpg" alt="英国爱他美"></td>
+							<td valign="top" height="220"><p>英国的爱尔兰牧场，是全世界最好的牧场，那里只有纯农业，无其他的任何产业。更重要的是英国的食检和药检也是全世界最严的。这些地方饲养的奶牛、饲料、饲养等都有电脑系统控制，有据可查。</p><p>德国爱他美和英国爱他美是两个国家同一品牌的奶粉。两者除了奶源不一样，其它成分都尽量保持一致。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-31-b0.html" target="_blank">&gt;&gt; 选择英国爱他美直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+			<td width="345" valign="top">
+					<table cellpadding="5" cellspacing="0" border="0">
+						<tbody><tr>
+							<td colspan="2" class="tabb_cpm">英国原装直邮牛栏——英国最畅销奶粉
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_cd">采购地：英国Coventry     6罐起订 免邮费</td>
+						</tr>
+						<tr>
+							<td colspan="2" class="tabb_hr"><hr></td>
+						</tr>
+						<tr>
+							<td rowspan="2" valign="top"><img src="themes/hanbaojia/images/cowgate.jpg" alt="英国牛栏"></td>
+							<td valign="top" height="220"><p>英国牛栏有着近100年的悠久历史和经验，为宝宝成长提供营养全面、安全的婴儿奶粉和辅食。Cow&amp;Gate的所有产品不假他人之手，都是自己专门畜养、种植，生产加工的。</p><p>英国牛栏至今没有出现任何质量问题，是欧洲最高品质的奶粉之一，特别是英国本土牛栏，是英国最畅销的奶粉。</p></td>
+						</tr>
+						<tr>
+							<td><p class="xuanze"><a href="./category-21-b0.html" target="_blank">&gt;&gt; 选择英国牛栏直邮</a></p></td>
+						</tr>
+					</tbody></table>
+			</td>
+		</tr>
+	</tbody></table>
+ </ol>								
+</div>
+ </li>
+ </ul>             
+</div>

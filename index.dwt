@@ -80,6 +80,9 @@
 	 <!--hot start-->
 	 <div class="clearfix ">
 		<div class="w780">
+		 <!-- #BeginLibraryItem "/library/recommend_new.lbi" --><!-- #EndLibraryItem --> 
+		 <!-- 按国家推荐商品 -->
+		 <!-- #BeginLibraryItem "/library/recommend_by_country.lbi" --><!-- #EndLibraryItem --> 
 		 <!-- {if $hot_goods} -->
          <!-- #BeginLibraryItem "/library/recommend_hot.lbi" --><!-- #EndLibraryItem -->  
 		 <!--{/if}--> 
@@ -93,7 +96,7 @@
         <!-- #BeginLibraryItem "/library/recommend_best.lbi" --><!-- #EndLibraryItem -->     
 
 	 <!--{/if} 精品推荐 END-->
-        <!-- #BeginLibraryItem "/library/recommend_new.lbi" --><!-- #EndLibraryItem --> 
+        
         
         <!-- TemplateBeginEditable name="商品右侧分类" -->
 <!-- #BeginLibraryItem "/library/ad_position.lbi" -->
