@@ -4,7 +4,6 @@
  <li id="tab1" class="tab1 up"><h3 style:'width="115px;'"><a href="./index.php####" onmouseover="javascript:toggleTob(1)"><img src="themes/hanbaojia/images/dgzy.gif" alt="德国直邮"></a></h3>
  
  <div id="bDIV1" style="">
- <ol>
 	<img src="themes/hanbaojia/images/dgzy.jpg" alt="德国直邮">
 	<table cellpadding="10" cellspacing="0" border="0">
 		<tbody><tr>
@@ -52,13 +51,11 @@
 			</td>
 		</tr>
 	</tbody></table>
- </ol>
  </div>
 
  </li>
  <li id="tab2" class="tab2"><h3><a href="./index.php##" onmouseover="javascript:toggleTob(2)"><img src="themes/hanbaojia/images/hlzy.gif" alt="荷兰直邮"></a></h3>
  <div id="bDIV2" style="display: none;">
-<ol>
 		<img src="themes/hanbaojia/images/hlzy.jpg" alt="荷兰直邮">
 	<table cellpadding="10" cellspacing="0" border="0">
 		<tbody><tr>
@@ -106,13 +103,11 @@
 			</td>
 		</tr>
 	</tbody></table>
-</ol> 
 
 </div>
  </li>
  <li id="tab3" class="tab3"><h3><a href="./index.php###" onmouseover="javascript:toggleTob(3)"><img src="themes/hanbaojia/images/rdzy.gif" alt="瑞典直邮"></a></h3>
- <div id="bDIV3" style="display: none;">
- <ol>								
+ <div id="bDIV3" style="display: none;">								
 	<img src="themes/hanbaojia/images/rdzy.jpg" alt="瑞典直邮">
 	<table cellpadding="10" cellspacing="0" border="0">
 		<tbody><tr>
@@ -159,13 +154,11 @@
 					</tbody></table>
 			</td>
 		</tr>
-	</tbody></table>
- </ol>								
+	</tbody></table>								
 </div>
  </li>
  <li id="tab4" class="tab4"><h3><a href="./index.php####" onmouseover="javascript:toggleTob(4)"><img src="themes/hanbaojia/images/ygzy.gif" alt="英国直邮"></a></h3>
- <div id="bDIV4" style="display: none;">
- <ol>								
+ <div id="bDIV4" style="display: none;">							
 	<img src="themes/hanbaojia/images/ygzy.jpg" alt="英国直邮">
 	<table cellpadding="10" cellspacing="0" border="0">
 		<tbody><tr>
@@ -212,8 +205,7 @@
 					</tbody></table>
 			</td>
 		</tr>
-	</tbody></table>
- </ol>								
+	</tbody></table>							
 </div>
  </li>
  </ul>             

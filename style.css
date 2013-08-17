@@ -2443,13 +2443,9 @@ a:hover {
 #tabb ul #tab4 h3 {margin-left:600px;}
 #tabb ul li div {position:absolute;clear:both;}
 #tabb ul li div#bDIV1 {padding-left:-255px;}
-#bDIV1 ol{padding-left: 0px;}
 #tabb ul li div#bDIV2 {padding-left:-370px;}
-#bDIV2 ol{padding-left: 0px;}
 #tabb ul li div#bDIV3 {padding-left:-485px;}
-#bDIV3 ol{padding-left: 0px;}
 #tabb ul li div#bDIV4 {padding-left:-600px;}
-#bDIV4 ol{padding-left: 0px;}
 /*TAB-标题修饰*/
 #tabb,#tabb ul li div,#tabb ul li div li {width:730px;padding-left: 20px;}/* 设置总宽度[width] */
 #tabb {height:550px;background:#F1F1F1;overflow:hidden;}/* 设置总高度[height]、标题背景颜色[background] */
