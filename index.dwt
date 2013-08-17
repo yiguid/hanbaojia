@@ -27,8 +27,20 @@
   <div id="pageLeft" class="fl">
 	<!-- #BeginLibraryItem "/library/category_tree.lbi" --><!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/top10.lbi" --><!-- #EndLibraryItem -->
-    <!-- #BeginLibraryItem "/library/brands.lbi" --><!-- #EndLibraryItem --> 
+    <!-- #BeginLibraryItem "/library/brands.lbi" --><!-- #EndLibraryItem -->
     <!-- TemplateBeginEditable name="左边广告2" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+<div class="ads">
+{insert name='ads' id=$ads_id num=$ads_num}
+</div>
+ <!-- #EndLibraryItem -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+<div class="ads">
+{insert name='ads' id=$ads_id num=$ads_num}
+</div>
+ <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
 	<!-- #BeginLibraryItem "/library/promotion_info.lbi" --><!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/invoice_query.lbi" --><!-- #EndLibraryItem -->

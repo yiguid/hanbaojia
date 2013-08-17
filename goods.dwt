@@ -13,8 +13,7 @@
 <link href="{$ecs_css_path}" rel="stylesheet" type="text/css" />
 {* 包含脚本文件 *}
 {insert_scripts files='common.js'}
-<script type="text/javascript" src="themes/68ecshop_moban_lanse/js/mzp-packed-me.js"></script>
-<script type="text/javascript" src="themes/68ecshop_moban_lanse/js/action.js"></script>
+<script type="text/javascript" src="themes/hanbaojia/js/action.js"></script>
 <script type="text/javascript">
 function changeAtt(t) {
 t.lastChild.checked='checked';
@@ -75,14 +74,14 @@ function reg(str){
 	  <div class="goodsimgbox fl">
 		  <div id="focuscont">
 		 
-     <!-- {if $pictures}-->
-<a style="position:relative" href="{$goods.goods_img}" id="zoom1" class="MagicZoom MagicThumb" title="{$goods.goods_name|escape:html}">
-      <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width="298px" height="298px" style="border:1px solid #d2d0d0"/>
-      
-     </a>
-         <!-- {else} -->
-         <img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}"/>
-         <!-- {/if}-->
+<script type="text/javascript" src="js/mzp-packed.js"></script>
+<!-- {if $pictures}-->
+<a href="{$goods.original_img}"  id="zoom1" class="MagicZoom MagicThum" title="{$goods.goods_style_name}" onclick="window.open('gallery.php?id={$goods.goods_id}'); return false;" rel="zoom-width:310px; zoom-height:310px;disable-expand: true">
+<img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width=310 />
+</a>
+<!-- {else} -->
+<img src="{$goods.goods_img}" alt="{$goods.goods_name|escape:html}" width=310/>
+<!-- {/if}-->
 		 
 	   </div>
 
