@@ -26,8 +26,7 @@
 <div class="block clearfix">
   <div id="pageLeft" class="fl">
 	<!-- #BeginLibraryItem "/library/category_tree.lbi" --><!-- #EndLibraryItem -->
-	<!-- #BeginLibraryItem "/library/top10.lbi" --><!-- #EndLibraryItem -->
-    <!-- #BeginLibraryItem "/library/brands.lbi" --><!-- #EndLibraryItem -->
+	
     <!-- TemplateBeginEditable name="左边广告2" -->
 <!-- #BeginLibraryItem "/library/ad_position.lbi" -->
 
@@ -35,14 +34,8 @@
 {insert name='ads' id=$ads_id num=$ads_num}
 </div>
  <!-- #EndLibraryItem -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
-
-<div class="ads">
-{insert name='ads' id=$ads_id num=$ads_num}
-</div>
- <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable -->
-	<!-- #BeginLibraryItem "/library/promotion_info.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/top10.lbi" --><!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/invoice_query.lbi" --><!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/order_query.lbi" --><!-- #EndLibraryItem -->
 	<!-- #BeginLibraryItem "/library/vote_list.lbi" --><!-- #EndLibraryItem -->
@@ -51,13 +44,11 @@
 	<!-- TemplateBeginEditable name="左边区域" -->
 <!-- TemplateEndEditable -->
 	</div>
-	<div id="pageRight" class="fr clearfix" >
-	 <div class="clearfix blank">
-	  <div class="w574 fl">
-	  <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
-	 </div>
-     
-	  <div class="w200 blank fr clearfix">
+	
+
+<!-- 右侧边栏-->
+<div id="pageLeft" class="fr">
+	<div class="w200 blank fr clearfix">
       
        <!-- TemplateBeginEditable name="公告下AD 200x70" -->
 <!-- #BeginLibraryItem "/library/ad_position.lbi" -->
@@ -81,6 +72,33 @@
 			 </div>
 			 <script type="text/javascript">divheight("mod1");</script>
 	 </div>
+    <!-- TemplateBeginEditable name="左边广告2" -->
+<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
+
+<div class="ads">
+{insert name='ads' id=$ads_id num=$ads_num}
+</div>
+ <!-- #EndLibraryItem -->
+<!-- TemplateEndEditable -->
+	<!-- #BeginLibraryItem "/library/promotion_info.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/invoice_query.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/order_query.lbi" --><!-- #EndLibraryItem -->
+	<!-- #BeginLibraryItem "/library/vote_list.lbi" --><!-- #EndLibraryItem -->
+    <!---品牌专区--->
+
+	<!-- TemplateBeginEditable name="左边区域" -->
+<!-- TemplateEndEditable -->
+<!-- #BeginLibraryItem "/library/brands.lbi" --><!-- #EndLibraryItem -->
+</div>
+
+<!-- 中间区域-->
+	<div id="pageCenter" class="fr clearfix" >
+	 <div class="clearfix blank">
+	  <div class="w780 fl">
+	  <!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
+	 </div>
+     
+	  
 
 	 </div>
      <div class="clearfix">
@@ -118,7 +136,8 @@
 </div>
  <!-- #EndLibraryItem -->
 <!-- TemplateEndEditable --> 
-	</div>
+</div>
+
     
 </div>
 <div class="block clearfix">

@@ -290,8 +290,8 @@ function reg(str){
 	    <h2>{$lang.feed_goods_desc}</h2>
 		<h2 class="h2bg">{$lang.goods_attr}</h2>
         <h2 class="h2bg">{$lang.releate_goods}</h2>
-		<h2 class="h2bg">还购买过</h2>
-		<h2 class="h2bg">购买记录</h2>
+		<!--<h2 class="h2bg">还购买过</h2>
+		<h2 class="h2bg">购买记录</h2>-->
 	</div>
 	 <div class="tagcontent" id="com_v"></div>
 	 <div id="com_h">
