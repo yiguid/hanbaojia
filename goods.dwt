@@ -51,7 +51,7 @@ function reg(str){
 
 </script>
 <style>
-.ur_here{ width:770px;}
+.ur_here{ width:970px;}
 </style>
 </head>
 <body>
@@ -198,7 +198,7 @@ function reg(str){
             
 
 			</div>
-			<div style=" margin-left:10px;">
+			<div style=" margin-left:10px;width:440px;">
 			<!--{if $goods.is_promote and $goods.gmt_end_time } 促销时间--><br />
 			<font style="font-size:12px;">{insert_scripts files='lefttime.js'}
 			{$lang.residual_time} <font class="a" id="leftTime">{$lang.please_waiting}</font></font><br />

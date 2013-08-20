@@ -15,7 +15,7 @@ var select_spe = "{$lang.select_spe}";
 </script>
 <div class="block1 clearfix" >
   <div class="block clearfix" > <span class="top_nav"> {insert_scripts files='transport.js,utils.js'} <font id="ECS_MEMBERZONE"> {* ECSHOP 提醒您：根据用户id来调用member_info.lbi显示不同的界面  *}{insert name='member_info'} </font>
-    <div style=" margin-left:620px; display:inline"> 
+    <div style=" margin-left:800px; display:inline"> 
       <!--{if $navigator_list.top}--> 
       <!-- {foreach name=nav_top_list from=$navigator_list.top item=nav} --> 
       <a  class="redtext"href="{$nav.url}" <!-- {if $nav.opennew eq 1} --> target="_blank" <!-- {/if} -->>{$nav.name}</a> 
@@ -28,7 +28,7 @@ var select_spe = "{$lang.select_spe}";
 </div>
 <div class="block clearfix bigBanner">
   <div class="logo"> <img src="../images/logo.gif"/> </div>
-  <div style="float:right;width:660px;">
+  <div style="float:right;width:760px;margin-right:20px;">
     <div class="search_div">
       <div id="search"  class="clearfix">
         <form id="searchForm" name="searchForm" method="get" action="search.php" onSubmit="return checkSearchForm()" >

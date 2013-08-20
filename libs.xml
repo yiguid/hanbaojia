@@ -49,6 +49,15 @@
     </region>
     <region name="商品列表上可编辑区域"/>
   </file>
+    <file name="waterfall.dwt">
+    <region name="左边区域">
+      <lib>category_tree</lib>
+      <lib>top10</lib>
+      <lib>history</lib>
+      <lib>promotion_info</lib>
+    </region>
+    <region name="商品列表上可编辑区域"/>
+  </file>
   <file name="compare.dwt"/>
   <file name="exchange_goods.dwt">
     <region name="左边区域">

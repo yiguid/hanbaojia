@@ -98,8 +98,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .bigBanner{
 	width: 1200px;
-	padding-left: 100px;
-	padding-right: 100px;
 	padding-top: 200px;
 	height: 100px;
 	background: url(images/topbanner.jpg);
@@ -370,7 +368,7 @@ background:url(images/bg.gif) no-repeat -14px -6px; right:-1px; bottom:-1px;
 	margin: 0 0px 8px 0;
 }
 #articleRight {
-	width: 770px;
+	width: 970px;
 	margin-bottom: 8px;
 }
 .w574 {
@@ -384,7 +382,7 @@ background:url(images/bg.gif) no-repeat -14px -6px; right:-1px; bottom:-1px;
 }
 /* ====================header==================== */
 .topright {
-	width: 780px;
+	width: 960px;
 	height: 128px;
 }
 .topnav {
@@ -1175,7 +1173,7 @@ height:150px; background:url(images/brandsbg1.gif) repeat-x 0 0; border:#09F sol
 	border: none;
 }
 .goodstxtbox {
-	width: 450px;
+	width: 550px;
 }
 .goodName {
 	border-bottom: 2px solid #ccc;
@@ -2196,7 +2194,7 @@ a:hover {
 	width: 150px;
 	height: 50px;
 	line-height: 20px;
-	margin-top: 6px;
+	margin-left: 100px;
 	padding:4px;
 	background: url(images/cartinfo.gif) no-repeat left top;
 	overflow: hidden;
@@ -2242,6 +2240,8 @@ a:hover {
 .logo {
 	width: 210px;
 	height: 80px;
+	padding-left: 20px;
+	margin-top: 4px;
 	float: left;
 }
 .main_nav {

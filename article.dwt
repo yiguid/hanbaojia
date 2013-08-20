@@ -15,7 +15,7 @@
 {insert_scripts files='common.js'}
 <script type="text/javascript" src="js/action.js"></script>
 <style>
-.ur_here{ width:760px;}
+.ur_here{ width:960px;}
 </style>
 </head>
 <body>

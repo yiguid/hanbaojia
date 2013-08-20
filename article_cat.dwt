@@ -20,7 +20,7 @@
 .cagegoryCon{
  padding:5px 10px; border:none;
 }
-.ur_here{ width:760px;}
+.ur_here{ width:960px;}
 </style>
 </head>
 <body>
