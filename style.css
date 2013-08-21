@@ -134,7 +134,7 @@ acronym {
 	text-align: center;
 	font-weight: 100;
 	font-size: 12px;
-	color: #000000;
+	color: #ffffff;
 	height: 21px;
 	vertical-align: middle;
 	cursor: pointer;
@@ -143,23 +143,23 @@ acronym {
 }
 .bnt_number2 {
 	width: 64px;
-	background: url(images/bg.gif) no-repeat 0 -48px;
+	background: url(images/btn_bg.png) no-repeat 0 -48px;
 }
 .bnt_number4 {
 	width: 81px;
-	background: url(images/bg.gif) no-repeat -67px -48px;
+	background: url(images/btn_bg.png) no-repeat -67px -48px;
 }
 .bnt_number6 {
 	width: 99px;
-	background: url(images/bg.gif) no-repeat -151px -48px;
+	background: url(images/btn_bg.png) no-repeat -151px -48px;
 }
 .bnt_number8 {
 	width: 128px;
-	background: url(images/bg.gif) no-repeat 0 -71px;
+	background: url(images/btn_bg.png) no-repeat 0 -71px;
 }
 .bnt_number10 {
 	width: 148px;
-	background: url(images/bg.gif) no-repeat -131px -71px;
+	background: url(images/btn_bg.png) no-repeat -131px -71px;
 }
 .go {
 	width: 49px;

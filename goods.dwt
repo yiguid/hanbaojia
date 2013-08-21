@@ -132,45 +132,47 @@ function reg(str){
 			<script>setInterval("colorStyle('fontcolor','a','b')",300);</script>
 			</div>
 			<!-- {/if} -->
-            <!----商品详细信息----->
-			<p class="goodsInfo">
-            <span>
-			<!-- {if $cfg.show_goodssn} 显示商品货号-->
-			{$lang.goods_sn}{$goods.goods_sn}</br>
-			<!-- {/if} -->
-			</span>
-            <span>
-			<!-- {if $goods.goods_number neq "" and $cfg.show_goodsnumber} 商品库存-->
-			<!-- {if $goods.goods_number eq 0} -->
-			{$lang.goods_number}<img src="images/wuhuo.gif" />
-			<!-- {else} -->
-			{$lang.goods_number} {$goods.goods_number} {$goods.measure_unit}
-			<!-- {/if} --></br>
-			<!-- {/if} -->
-			</span>
-            <span>
-			<!-- {if $goods.goods_brand neq "" and $cfg.show_brand} 显示商品品牌-->
-			{$lang.goods_brand}<a href="{$goods.goods_brand_url}" ><u>{$goods.goods_brand}</u></a></br>
-			<!--{/if}-->
-			</span>
-            <span>
-			<!-- {if $cfg.show_goodsweight} 商品重量-->
-			{$lang.goods_weight}{$goods.goods_weight}</br>
-			<!-- {/if} -->
-			</span>
-            <span>
-			<!-- {if $cfg.show_addtime} 上架时间-->
-			{$lang.add_time}{$goods.add_time}</br>
-			<!-- {/if} -->
-			</span>
-            <span>
-			<!--点击数-->
-			{$lang.goods_click_count}：{$goods.click_count}</br>
-            </span>
-            <span>
-			{$lang.goods_rank} <img src="images/stars{$goods.comment_rank}.gif" alt="comment rank {$goods.comment_rank}" />
-            </br></span>
-			</p>
+            <!--商品详细信息-->
+            <div style="width:440px;margin-left:0px;">
+				<p class="goodsInfo">
+	            <span>
+				<!-- {if $cfg.show_goodssn} 显示商品货号-->
+				{$lang.goods_sn}{$goods.goods_sn}</br>
+				<!-- {/if} -->
+				</span>
+	            <span>
+				<!-- {if $goods.goods_number neq "" and $cfg.show_goodsnumber} 商品库存-->
+				<!-- {if $goods.goods_number eq 0} -->
+				{$lang.goods_number}<img src="images/wuhuo.gif" />
+				<!-- {else} -->
+				{$lang.goods_number} {$goods.goods_number} {$goods.measure_unit}
+				<!-- {/if} --></br>
+				<!-- {/if} -->
+				</span>
+	            <span>
+				<!-- {if $goods.goods_brand neq "" and $cfg.show_brand} 显示商品品牌-->
+				{$lang.goods_brand}<a href="{$goods.goods_brand_url}" ><u>{$goods.goods_brand}</u></a></br>
+				<!--{/if}-->
+				</span>
+	            <span>
+				<!-- {if $cfg.show_goodsweight} 商品重量-->
+				{$lang.goods_weight}{$goods.goods_weight}</br>
+				<!-- {/if} -->
+				</span>
+	            <span>
+				<!-- {if $cfg.show_addtime} 上架时间-->
+				{$lang.add_time}{$goods.add_time}</br>
+				<!-- {/if} -->
+				</span>
+	            <span>
+				<!--点击数-->
+				{$lang.goods_click_count}：{$goods.click_count}</br>
+	            </span>
+	            <span>
+				{$lang.goods_rank} <img src="images/stars{$goods.comment_rank}.gif" alt="comment rank {$goods.comment_rank}" />
+	            </br></span>
+				</p>
+			</div>
 			<!--本店售价-->
 			<div class="Goodpromotion" style="float:left; width:440px; border-left:none; border-right:none;">
 
@@ -290,10 +292,8 @@ function reg(str){
 	    <h2>{$lang.feed_goods_desc}</h2>
 		<h2 class="h2bg">{$lang.goods_attr}</h2>
         <h2 class="h2bg">{$lang.releate_goods}</h2>
-		<!--<h2 class="h2bg">还购买过</h2>
-		<h2 class="h2bg">购买记录</h2>-->
 	</div>
-	 <div class="tagcontent" id="com_v"></div>
+	 <div class="tagcontent" style="float:left;padding-left:50px;" id="com_v"></div>
 	 <div id="com_h">
 		   <blockquote>
         {$goods.goods_desc}
@@ -326,7 +326,9 @@ function reg(str){
 		 </div>
 	<script type="text/javascript">reg("com");</script>
 	 <!-- TemplateBeginEditable name="右边可编辑区" -->
+	 <div style="float:left;padding-left:50px;width:950px;">
 	 <!-- #BeginLibraryItem "/library/comments.lbi" --><!-- #EndLibraryItem -->
+	</div>
 	 <!-- TemplateEndEditable -->
 	</div>
 </div>
