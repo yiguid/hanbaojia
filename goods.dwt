@@ -273,7 +273,9 @@ function reg(str){
             <div class="Goodpromotion">
            
 			<font style="font-size:12px;">{$lang.number}：</font>
+			<a href="javascript:cart_number('number', '-');">-</a>
 			<input name="number" type="text" id="number" value="1" size="4" onBlur="changePrice()" class="InputBorder"/>
+			<a href="javascript:cart_number('number', '+');">+</a>
 			&nbsp;&nbsp;&nbsp;
 			<font style="font-size:12px;">{$lang.amount}：</font>
             <span id="ECS_GOODS_AMOUNT" class="price"></span>
@@ -360,34 +362,6 @@ onload = function(){
   catch (e) {}
 }
 
-/**
- * 点选可选属性或改变数量时修改商品价格的函数
- */
-function changePrice()
-{
-  var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
-  var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
-
-  Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
-}
-
-/**
- * 接收返回的信息
- */
-function changePriceResponse(res)
-{
-  if (res.err_msg.length > 0)
-  {
-    alert(res.err_msg);
-  }
-  else
-  {
-    document.forms['ECS_FORMBUY'].elements['number'].value = res.qty;
-
-    if (document.getElementById('ECS_GOODS_AMOUNT'))
-      document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
-  }
-}
 <!-- {/literal} -->
 </script>
 </html>

@@ -1,0 +1,94 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<div class="goodsTitle clearfix blank">
+  <span class="fl">{$lang.goods_list}</span>
+  <form method="GET" class="sort fr" name="listform" >
+  <input type="hidden" name="category" value="{$category}" />
+  <input type="hidden" name="display" value="{$pager.display}" id="display" />
+  <input type="hidden" name="brand" value="{$brand_id}" />
+  <input type="hidden" name="price_min" value="{$price_min}" />
+  <input type="hidden" name="price_max" value="{$price_max}" />
+  <input type="hidden" name="filter_attr" value="{$filter_attr}" />
+  <input type="hidden" name="page" value="{$pager.page}" />
+  <input type="hidden" name="sort" value="{$pager.sort}" />
+  <input type="hidden" name="order" value="{$pager.order}" />
+  </form>
+</div>
+<div class="clearfix modContent">
+    <!-- {if $category > 0} -->
+  <form name="compareForm" action="compare.php" method="post" onSubmit="return compareGoods(this);">
+    <!-- {/if} -->
+    <div class="clearfix grid">
+
+    <div id="container">
+    <!--{foreach from=$goods_list item=goods}-->
+    <!-- {if $goods.goods_id} -->
+
+    <!-- waterfall start -->
+        <div class="item" style="height:470px;">
+      <img src="data/afficheimg/1377094954168654989.jpg"></img>
+    </div>
+      <div class="item">
+     <div class="goodsbox">
+           <div class="imgbox"><a href="{$goods.url}"><img src="{$goods.goods_thumb}" alt="{$goods.goods_name}" /></a></div>
+           <a href="{$goods.url}" title="{$goods.name|escape:html}">{$goods.goods_name}</a><br />
+          <li class="action">
+    <a href="javascript:addToCart({$goods.goods_id})">购买</a> | 
+    <a href="javascript:collect({$goods.goods_id})">收藏</a>
+    </li>
+
+            <!-- {if $show_marketprice} -->
+						 <font class="market">{$goods.market_price}</font>
+						<!-- {/if} -->
+			 <!-- {if $goods.promote_price neq ""} -->
+			 <b class="f1">{$goods.promote_price}</b>
+			 <!-- {else}-->
+			 <b class="f1">{$goods.shop_price}</b><br />
+			 <!--{/if}-->
+
+      </div>
+      </div>
+      <!-- waterfall end -->
+
+    <!--{/if}-->
+    <!--{/foreach}-->
+    </div>
+    </div>
+  <!-- {if $category > 0} -->
+  </form>
+  <!-- {/if} -->
+</div>
+<script type="Text/Javascript" language="JavaScript">
+<!--
+{literal}
+function selectPage(sel)
+{
+  sel.form.submit();
+}
+{/literal}
+//-->
+</script>
+<script type="text/javascript">
+
+var container = document.querySelector('#container');
+var msnry = new Masonry( container, {
+  // options
+  itemSelector: '.item'
+});
+
+window.onload = function()
+{
+  Compare.init();
+  fixpng();
+}
+{foreach from=$lang.compare_js item=item key=key}
+{if $key neq 'button_compare'}
+var {$key} = "{$item}";
+{else}
+var button_compare = '';
+{/if}
+{/foreach}
+var compare_no_goods = "{$lang.compare_no_goods}";
+var btn_buy = "{$lang.btn_buy}";
+var is_cancel = "{$lang.is_cancel}";
+var select_spe = "{$lang.select_spe}";
+</script>

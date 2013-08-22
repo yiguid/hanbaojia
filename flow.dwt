@@ -85,7 +85,9 @@
 				<td align="right" bgcolor="#ffffff" class="price">{$goods.goods_price}</td>
 				<td align="right" bgcolor="#ffffff">
 					<!-- {if $goods.goods_id gt 0 && $goods.is_gift eq 0 && $goods.parent_id eq 0} 普通商品可修改数量 -->
+					<a href="javascript:cart_number('goods_number_{$goods.rec_id}', '-');">-</a>
 					<input type="text" name="goods_number[{$goods.rec_id}]" id="goods_number_{$goods.rec_id}" value="{$goods.goods_number}" size="4" class="InputBorder"  onkeydown="showdiv(this)"/>
+					<a href="javascript:cart_number('goods_number_{$goods.rec_id}', '+');">+</a>
 					<!-- {else} -->
 					{$goods.goods_number}
 					<!-- {/if} -->

@@ -98,3 +98,63 @@ function mypicBg(){
 		}
 	}
 }
+
+/**
+ * 点选可选属性或改变数量时修改商品价格的函数
+ */
+function changePrice()
+{
+  var attr = getSelectedAttributes(document.forms['ECS_FORMBUY']);
+  var qty = document.forms['ECS_FORMBUY'].elements['number'].value;
+
+  Ajax.call('goods.php', 'act=price&id=' + goodsId + '&attr=' + attr + '&number=' + qty, changePriceResponse, 'GET', 'JSON');
+}
+
+/**
+ * 接收返回的信息
+ */
+function changePriceResponse(res)
+{
+  if (res.err_msg.length > 0)
+  {
+    alert(res.err_msg);
+  }
+  else
+  {
+    document.forms['ECS_FORMBUY'].elements['number'].value = res.qty;
+
+    if (document.getElementById('ECS_GOODS_AMOUNT'))
+      document.getElementById('ECS_GOODS_AMOUNT').innerHTML = res.result;
+  }
+}
+
+/**
+* 购物车加减按钮
+* @param    txt_id  数量的ID
+* @param    type    加 + 减 -
+* @param    num        添加或者减少的数量 默认为一
+*/
+function cart_number(txt_id, type, num)
+{
+    num = num || 1;
+    var txt = document.getElementById(txt_id);
+    var source_num = parseInt(txt.value);
+    if (source_num == 1 && type == '-')
+    {
+        alert('请最少购买一个商品');
+        return;
+    }
+    var to_num       = source_num;
+    if (type == '+')
+    {
+        to_num += num;
+    }
+    else if (type == '-')
+    {
+        to_num -= num;
+    }
+ 
+    txt.value = to_num;
+    changePrice();
+    showdiv(txt);
+}
