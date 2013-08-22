@@ -29,7 +29,7 @@
 			<!-- {if $brand_data.brand_logo} -->
        <div class="imgbox"><a href="{$brand_data.url}"><img src="data/brandlogo/{$brand_data.brand_logo}" alt="{$brand_data.brand_name|escape:html} ({$brand_data.goods_num})" /></a></div>
 			<!-- {/if} -->
-			 <p title="{$brand_data.brand_desc}" class="word">{$brand_data.brand_desc}</p> 
+			 <!--<p title="{$brand_data.brand_desc}" class="word">{$brand_data.brand_desc}</p> -->
 			</div>
 		<!-- {/foreach} -->	
 	</div>

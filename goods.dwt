@@ -187,7 +187,7 @@ function reg(str){
 			<!-- {/if} -->
 
 			<!-- {foreach from=$rank_prices item=rank_price key=key} 会员等级对应的价格-->
-			<font class="goodspice" style="margin-right:15px;">{$rank_price.rank_name}：<font class="" id="ECS_RANKPRICE_{$key}">{$rank_price.price}</font></font>
+			<font class="goodspice" style="margin-right:15px;">{$rank_price.rank_name}：<font class="" id="ECS_RANKPRICE_{$key}">{$rank_price.price}</font></font><br />
 			<!--{/foreach}-->
 
             
@@ -330,7 +330,13 @@ function reg(str){
 	 <!-- #BeginLibraryItem "/library/comments.lbi" --><!-- #EndLibraryItem -->
 	</div>
 	 <!-- TemplateEndEditable -->
+	 <div style="float:left;padding-left:50px;width:950px;">
+	 	<h1 class="mod2tit" style="background:#e4393c; height:27px;"><font style="color:#FFF">您可能感兴趣的商品</font></h1>
+		<!-- #BeginLibraryItem "/library/goods_related.lbi" --><!-- #EndLibraryItem -->
 	</div>
+
+	</div>
+	
 </div>
 <div class="blank"></div>
 <!-- #BeginLibraryItem "/library/help.lbi" --><!-- #EndLibraryItem -->
